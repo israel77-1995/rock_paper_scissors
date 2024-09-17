@@ -19,3 +19,4 @@ function getHumanChoice() {
     user_choice = parseInt(prompt("Enter your choice: "))
 
 }
+
