@@ -17,5 +17,5 @@ console.log(getComputerChoice());
 // Function to get humans's random choice
 function getHumanChoice() {
     user_choice = parseInt(prompt("Enter your choice: "))
-    
+
 }
