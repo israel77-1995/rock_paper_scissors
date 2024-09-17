@@ -23,3 +23,8 @@ function getHumanChoice() {
 console.log("Computer chose:", getComputerChoice());
 console.log("Human chose:", getHumanChoice());
 
+//Declare the players score variables
+
+let humanScore = 0;      // This will keep track of the human player's score
+let computerScore = 0;   // This will keep track of the computer's score
+
