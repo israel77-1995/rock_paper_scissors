@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Game</title>
+    <title>Rock Paper Scissors</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <script src="app.js"></script>  <!-- Links an external JavaScript file -->
+    <h1>Rock Paper Scissors</h1>
+
+    <!-- Buttons for player selection -->
+    <button id="rock">Rock</button>
+    <button id="paper">Paper</button>
+    <button id="scissors">Scissors</button>
+
+    <!-- Div to display results -->
+    <div class="result">
+        <p id="round-result">Make your move!</p>
+        <p id="score">Score: Human 0, Computer 0</p>
+        <p id="final-result"></p>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="app.js"></script>
 </body>
 </html>
